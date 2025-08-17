@@ -1,0 +1,115 @@
+{
+  "reason": null,
+  "idDocType": null,
+  "modifiedAt": "07/31/2025 13:47",
+  "transactionLines": [
+    {
+      "id": "b1a81b54-f274-4e81-9ff2-61f7ec399bc2",
+      "year": 2024,
+      "period": {
+        "id": "2c2146dc-c6a1-492e-8e96-2577f08020cf",
+        "code": "16",
+        "name": "Q4 - Oct 1 to Dec 31",
+        "content": {
+          "sort": "p",
+          "number": "4",
+          "taxperiodtype": "3ba55ced-697b-4c03-92dc-2d829a4437e8"
+        }
+      },
+      "taxType": {
+        "id": "663d7248-62d7-4dca-903f-177f541a275a",
+        "code": "02",
+        "name": "GRT (Gross Revenue Tax)",
+        "content": {
+          "deadlineType": "END_OF_MONTH",
+          "docCodeValue": "G0"
+        }
+      },
+      "payedAmount": 12000,
+      "principalAmount": 31089.7,
+      "interestAmount": 925.02,
+      "penaltyAmount": 6546.75,
+      "adjustmentKey": null,
+      "totalLiabilityAmount": 38561.47
+    }
+  ],
+  "createdAt": "07/31/2025 13:47",
+  "idDocNumber": null,
+  "overpayment": 0,
+  "modifiedBy": {
+    "id": "9b9489b0-8ec9-4630-b47d-b47670c65adf",
+    "username": "napoleon",
+    "createdAt": "03/06/2025 13:22",
+    "status": "ACTIVE",
+    "scope": "ITAMIS",
+    "firstName": "Napoleon",
+    "middleName": null,
+    "lastName": "Bonaparte",
+    "email": "napoleon@yopmail.com",
+    "phoneNumber": "2033399"
+  },
+  "id": "58799b73-3bd6-4c4f-875d-0243b326f2d8",
+  "attachmentId": null,
+  "payedAmount": 12000,
+  "bankAccount": {
+    "id": "67ac1963-5873-40c5-bdfb-3b0b0b52e5f7",
+    "accountNumber": "9966557878",
+    "bank": {
+      "id": "d43ae84e-0fb0-4331-8a39-e488847ea282",
+      "code": "01",
+      "name": "Bank of FSM",
+      "content": {
+        "routingNumber": "121302373",
+        "budgetAccountNumberUsd": "7740701904"
+      }
+    },
+    "branch": null,
+    "currency": null,
+    "bankName": null
+  },
+  "drn": "Rp0310725000004",
+  "overpaymentTaxType": null,
+  "completedAt": null,
+  "dishonoredAt": null,
+  "overpaymentAdjKey": null,
+  "dishonored": false,
+  "taxpayer": {
+    "id": "899f5a11-e6b3-4851-bf92-475c9dd8ae17",
+    "tin": "10000214",
+    "name": "Goooo",
+    "orgUnit": {
+      "id": "eb0aaec0-cd0c-482f-bf6b-9315a836ea97",
+      "code": "05",
+      "name": "CTA Pohnpei Office"
+    },
+    "taxRegion": null,
+    "nameOrDefault": "Goooo"
+  },
+  "completed": false,
+  "createdBy": {
+    "id": "9b9489b0-8ec9-4630-b47d-b47670c65adf",
+    "username": "napoleon",
+    "createdAt": "03/06/2025 13:22",
+    "status": "ACTIVE",
+    "scope": "ITAMIS",
+    "firstName": "Napoleon",
+    "middleName": null,
+    "lastName": "Bonaparte",
+    "email": "napoleon@yopmail.com",
+    "phoneNumber": "2033399"
+  },
+  "paymentMethod": {
+    "id": "9c332ae7-d077-4f16-80bd-480e3d59182e",
+    "code": "02",
+    "name": "Bank Transfer",
+    "content": {
+      "showInRegPmt": "true"
+    }
+  },
+  "comment": null,
+  "paymentRegistrationDate": "07/31/2025",
+  "totalPaymentAmount": 12000,
+  "bankRefNum": "Rp0310725000004",
+  "paymentDate": "07/31/2025",
+  "status": "PENDING"
+}
