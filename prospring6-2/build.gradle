@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group = 'org.example'
@@ -9,9 +10,19 @@ repositories {
     mavenCentral()
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21) // adjust if needed
+    }
+}
+
+application {
+    // 👇 replace this with your actual main class
+    mainClass = 'com.apress.prospring6.two.component_scan.Main'
+}
+
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.springframework:spring-context:6.1.6'
 }
 
 test {

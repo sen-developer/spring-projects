@@ -1,0 +1,6 @@
+com/apress/prospring6/two/component_scan/StandardOutMessageRenderer.class
+com/apress/prospring6/two/component_scan/HelloWorldConfig.class
+com/apress/prospring6/two/component_scan/Main.class
+com/apress/prospring6/two/component_scan/MessageRenderer.class
+com/apress/prospring6/two/component_scan/MessageProvider.class
+com/apress/prospring6/two/component_scan/HelloWorldMessageProvider.class
