@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation("org.springframework:spring-core:7.0.0-M8")
     implementation("org.springframework:spring-context:7.0.0-M8")
+    implementation("jakarta.annotation:jakarta.annotation-api:3.0.0")
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
