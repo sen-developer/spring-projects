@@ -1,7 +1,7 @@
 package com.apress.prospring6.two.component_scan;
 import org.springframework.stereotype.Component;
 
-@Component("provider")
+@Component("e")
 public class HelloWorldMessageProvider implements MessageProvider {
     @Override
     public String getMessage() {

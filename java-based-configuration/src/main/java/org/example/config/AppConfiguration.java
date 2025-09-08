@@ -1,11 +1,9 @@
 package org.example.config;
 
+import org.example.bean.CustomBeanPostProcessor;
 import org.example.component.HelloComponent;
 import org.example.component.HelloMessage;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.*;
 
 @Configuration
 public class AppConfiguration {
@@ -26,4 +24,8 @@ public class AppConfiguration {
     }
 
 
+    @Bean
+    public CustomBeanPostProcessor customBeanPostProcessor(){
+        return  new CustomBeanPostProcessor();
+    }
 }
