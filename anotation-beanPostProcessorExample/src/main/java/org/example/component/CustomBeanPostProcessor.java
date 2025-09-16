@@ -2,10 +2,11 @@ package org.example.component;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
+import org.springframework.core.Ordered;
 import org.springframework.stereotype.Component;
 
 @Component  // <-- Spring autodetect as BeanPostProcessor
-public class CustomBeanPostProcessor implements BeanPostProcessor {
+public class CustomBeanPostProcessor implements BeanPostProcessor , Ordered {
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
@@ -21,5 +22,10 @@ public class CustomBeanPostProcessor implements BeanPostProcessor {
             System.out.println("BeanPostProcessor AFTER init: " + beanName);
         }
         return bean;
+    }
+
+    @Override
+    public int getOrder() {
+        return 0;
     }
 }
